@@ -1,0 +1,25 @@
+#include
+#include
+using namespace std;
+void Lingkaran (int r)
+{
+float phi,luas;
+phi =3.14;
+luas =phi*r*r;
+cout << "Luas Lingkaran : "<<luas<<" cm" << endl;}
+int main()
+{
+string raptor_prompt_variable_zzyz;
+int r;
+float luas;
+cout<< "============================="<<endl;
+cout << "||Menghitung Luas Lingkaran||" << endl;
+cout<< "============================="<<endl<<endl;
+raptor_prompt_variable_zzyz ="Masukan Jari-Jari Lingkaran: ";
+cout <> r;
+luas =0;
+cout<<endl;
+cout<< "================================"<<endl;
+Lingkaran(r);
+return 0;
+}
